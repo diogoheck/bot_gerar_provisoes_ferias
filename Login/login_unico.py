@@ -9,10 +9,10 @@ def logar_unico():
 
  # clicar no icone do unico na area de trabalho
     pyautogui.doubleClick(x=36, y=24, duration=2)
-    sleep(5)
+    sleep(120)
     # clicar no botao connect (ja com a senha salva da rede)
     pyautogui.click(x=820, y=359, duration=2)
-    sleep(60)
+    sleep(120)
     # clicar no input de usuario
     pyautogui.click(637, 373, duration=1)
     # inserir usuario
@@ -28,7 +28,7 @@ def logar_unico():
     sleep(1)
     # entrar no sistema
     pyautogui.press('enter')
-    sleep(20)
+    sleep(120)
 
 
 if __name__ == '__main__':
