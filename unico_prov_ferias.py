@@ -22,10 +22,10 @@ if __name__ == '__main__':
 
     competencia = calcular_competencia_geracao()
 
-    pasta_provisoes = load_workbook('R:\\Compartilhado\\DP\\lista_provisoes\\plan_provisoes.xlsx')
+    pasta_provisoes = load_workbook('R:\\Compartilhado\\DP\\lista_provisoes\\plan_provisoes_ferias.xlsx')
     planilha = pasta_provisoes.active
 
-    logar_unico()
+    # logar_unico()
     acessar_modulo_folha()
     acesso_provisao('s')
     for cod_empresa in planilha.values:

@@ -5,6 +5,7 @@ from funcao_locate.localizar_elemento import localizar_elemento_tela
 
 def acessar_modulo_folha():
 
+    sleep(5)
    # clicar no unico contabil para abrir opcoes
     pyautogui.click(1174, 58, duration=1)
     sleep(2)
